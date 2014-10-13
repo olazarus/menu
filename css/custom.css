@@ -2,6 +2,11 @@
 .jumbotron {
 	text-align: center;
 	background-color: white;
+	font-family: 'Coming Soon', cursive;
+}
+
+.jumbotron h1 {
+	margin-top: 40px;
 }
 
 .navbar {
@@ -10,20 +15,83 @@
 }
 
 .menu {
-	background-color: #F7EFD6;
-	border: 1px dashed black;
+	background-color: rgba(238,232,170,.3);
+	border: 2px solid green;
+	
 }
 
-@media (max-width: 700px) {
+.menu h3 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+.menu h4 {
+	text-align: center;
+	font-size: 25px;
+}
+
+.menu h3, h4 {
+	font-family: 'Lobster 2', cursive;
+	font-weight: bold;
+}
+
+.menu h5, p {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 15px;
+}
+	
+.menu h5 {
+	font-weight: bold;
+}
+
+@media (max-width: 900px) {
 	.jumbologo { 
 		height: 200px;
 		margin-top: 20px;
 	}
-	.jumbotron p, .jumbotron h1, .jumbotron h2, 		.jumbotron h3, .btn  {
+	.jumbotron p {
+		font-size: 17px;
+	}
+	
+	.jumbotron h2, .about h2 {
+		font-size: 20px;
+	}
+	
+	.about p {
 		font-size: 15px;
 	}
+	
+	.btn  {
+		font-size: 80%;
+	}
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+	
+	
 	.map {
 		width: 400px;
 		height: 600px
+	}
+	
+	
+	.menu h3 {
+		font-size: 25px;
+	}
+	
+	.menu h4 {
+		font-size: 20px;
+	}
 }
+
+.buttons, .button2 {
+	text-align: center;
+}
+@media (min-width: 990px) {
+	.buttons {
+		display: none;
+	}
+}
+
 
