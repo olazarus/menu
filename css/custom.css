@@ -5,8 +5,13 @@
 	font-family: 'Coming Soon', cursive;
 }
 
+.jumbologo {
+	height: 360px;
+}
+
 .jumbotron h1 {
 	margin-top: 40px;
+	font-size: 40px;
 }
 
 .navbar {
